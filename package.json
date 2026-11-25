@@ -1,0 +1,77 @@
+{
+  "name": "@arenyze/the-finals",
+  "version": "0.1.0",
+  "description": "Official Arenyze SDK for THE FINALS API. Access player rankings, leaderboards, rank history, seasons, clubs, items and game statistics.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js",
+      "require": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "src/",
+    "index.d.ts",
+    "types/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "typecheck": "node node_modules/typescript/lib/tsc.js -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arenyze-Network/the-finals.git"
+  },
+  "homepage": "https://docs.arenyze.com/",
+  "bugs": {
+    "url": "https://github.com/Arenyze-Network/the-finals/issues"
+  },
+  "funding": "https://buymeacoffee.com/mazeor",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "arenyze",
+    "the-finals",
+    "the finals",
+    "thefinals",
+    "thefinals-api",
+    "the-finals-api",
+    "the-finals-sdk",
+    "thefinalsapi",
+    "the-finals-stats",
+    "the-finals-tracker",
+    "embark",
+    "embark-studios",
+    "player-stats",
+    "player-rankings",
+    "leaderboard",
+    "ranked",
+    "rank-history",
+    "gaming-api",
+    "game-data",
+    "esports",
+    "fps",
+    "api",
+    "sdk",
+    "api-client",
+    "api-wrapper"
+  ],
+  "author": "mazeor",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
+    "typescript": "^7.0.2"
+  }
+}
